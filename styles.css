@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url("./images/clock.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.main {
+  background:url("https://www.precheck.com/sites/default/files/styles/blog__large/public/What%20to%20Consider%20When%20Submitting%20a%20Background%20Check%20Turnaround%20Time%20Demystified.png?itok=nNj5nQ9E");
+  background-size: cover;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  margin: 5% auto auto auto;
+  text-align: center;
+}
+.title {
+  font-size: 4rem;
+}
+button {
+  width: fit-content;
+  font-size: 2.5rem;
+  margin: 2%;
+  border-radius: 50%;
+  padding: 1rem;
+}
+.main-content {
+  display: flex;
+  flex-direction: row;
+  padding: 5% 5% 0 5%;
+  align-items: center;
+}
+.number {
+  font-size: 3rem;
+  background-color:aliceblue;
+  margin: 5rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  border-width: 2px;
+  border-color: black;
+}
+.op{
+    height: 2%;
+}
+
+@media screen and (max-width: 1000px){
+  .main{
+    width: 90%;
+    margin-top: 20%;
+  }
+}
